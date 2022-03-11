@@ -1,13 +1,6 @@
 Markdown assignment
 =====================
 
----
-title: "New markdown"
-author: "Renee"
-date: "3/11/2022"
-output: html_document
----
-
 
 Reading the csv file "activity.csv":
 ```{r, cache=T, echo=F}
