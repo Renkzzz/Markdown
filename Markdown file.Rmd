@@ -1,6 +1,10 @@
 Markdown assignment
 ==============
 
+```{r}
+knitr::opts_chunk$set(echo=TRUE)
+```
+
 
 Read csv file "activity.csv" from github repo raw link:
 ```{r, cache=F}
@@ -8,7 +12,32 @@ data1<-read.csv("https://raw.githubusercontent.com/Renkzzz/Markdown/ee2a8a22e192
 ```
 
 
-Read csv file "activity.csv":
+See variable names:
 ```{r}
-summary(data1)
+names(data1)
 ```
+
+Mean steps, "use na.rm=T" to exclude NAs:
+```{r}
+mean(data1$steps, na.rm=T)
+```
+
+
+Total number of steps, "use na.rm=T" to exclude NAs:
+```{r}
+sum(data1$steps, na.rm=T)
+```
+
+
+Histogram of steps:
+```{r}
+hist(data1$steps)
+```
+
+Histogram of steps:
+```{r}
+median(data1$steps, na.rm=T)
+
+```
+
+
