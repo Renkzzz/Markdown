@@ -1,10 +1,9 @@
 ---
-title: "New markdown"
+title: "Untitled"
 author: "Renee"
 date: "3/11/2022"
-output: md_document
+output: html_document
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
