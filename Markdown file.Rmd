@@ -1,6 +1,8 @@
 Markdown assignment
 =====================
 
+output: html_document
+
 Reading the csv file "activity.csv":
 ```{r, cache=T, echo=F}
 data1<-read.csv(file.choose())
