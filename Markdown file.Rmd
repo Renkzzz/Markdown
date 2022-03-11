@@ -1,0 +1,7 @@
+Markdown assignment
+=====================
+
+Reading the csv file "activity.csv":
+```{r, cache=T}
+data1<-read.csv(file.choose())
+```
